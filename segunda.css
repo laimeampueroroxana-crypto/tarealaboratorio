@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Hobbies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="contenido-pagina">
+
+    <center>
+        <h1>Mis Hobbies y Pasatiempos</h1>
+    </center>
+
+    <table class="tabla-hobbies">
+        <thead>
+            <tr>
+                <th>Hobby</th>
+                <th>Descripción</th>
+                <th>Imágenes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>1. Deporte / Baloncesto</b></td>
+                <td>Me gusta practicar baloncesto los fines de semana para mantenerme activo y compartir con mis amigos.</td>
+                <td>
+                    <img src="imagenes/jugando.jpg" alt="Practicando hobby" class="img-hobby">
+                    <img src="imagenes/cancha.jpg" alt="Cancha" class="img-hobby">
+                </td>
+            </tr>
+            <tr>
+                <td><b>2. Programación y Videojuegos</b></td>
+                <td>Disfruto aprender nuevos lenguajes de programación y jugar videojuegos de estrategia en mis tiempos libres.</td>
+                <td>
+                    <img src="imagenes/computadora.jpg" alt="Estudiante en la computadora" class="img-hobby">
+                    <img src="imagenes/juego.jpg" alt="Juego" class="img-hobby">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
